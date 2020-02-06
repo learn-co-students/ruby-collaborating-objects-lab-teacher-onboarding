@@ -2,6 +2,7 @@ describe 'Artist' do
 
   before(:example) {
     Artist.class_variable_set(:@@all, [])
+    Song.class_variable_set(:@@all, [])
   }
 
 
